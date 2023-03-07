@@ -6,7 +6,7 @@
 /*   By: ibehluli <ibehluli@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/11 16:21:34 by ibehluli      #+#    #+#                 */
-/*   Updated: 2022/11/02 18:26:30 by ibehluli      ########   odam.nl         */
+/*   Updated: 2022/10/28 12:02:27 by ibehluli      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	i = 0;
 	if (!*needle)
 		return ((char *) haystack);
-	if (!haystack)
-		return (NULL);
 	while (haystack[i])
 	{
 		e = 0;

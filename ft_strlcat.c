@@ -6,7 +6,7 @@
 /*   By: ibehluli <ibehluli@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/05 16:34:37 by ibehluli      #+#    #+#                 */
-/*   Updated: 2022/11/02 18:28:15 by ibehluli      ########   odam.nl         */
+/*   Updated: 2022/10/19 18:53:27 by ibehluli      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	index;
 	size_t	maximum_chars;
 
-	if (!dst)
-		return (ft_strlen(src) + dstsize);
 	len_dst = ft_strlen(dst);
 	index = 0;
 	maximum_chars = dstsize - len_dst - 1;
