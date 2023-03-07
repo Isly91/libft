@@ -6,7 +6,7 @@
 /*   By: ibehluli <ibehluli@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 14:03:16 by ibehluli      #+#    #+#                 */
-/*   Updated: 2023/02/01 12:14:07 by ibehluli      ########   odam.nl         */
+/*   Updated: 2023/03/07 17:28:36 by ibehluli      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <stdarg.h>
+# include "get_next_line.h"
+# include "ft_printf.h"
 
 char	*ft_itoa(int n);
 
