@@ -67,7 +67,7 @@ $(OBJDIR) :
 	@mkdir $(OBJDIR)
 $(OBJDIR)/%.o : $(SRCDIR)/%.c
 	@$(CC) -Iheaders $(CFLAGS) -c $^ -o $@
-	@printf "$(BLUE)Creating... $$(basename $@) $(RESET)\n"
+	@printf "$(GREEN)Creating... $$(basename $@) $(RESET)\n"
 	
 clean:
 	@-rm -rf $(OBJDIR)
